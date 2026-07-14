@@ -1,0 +1,3 @@
+FirstName,LastName,UserPrincipalName,Department,JobTitle,Action,Groups
+Alicia,Nguyen,alicia.nguyen@rashawntech12outlook.onmicrosoft.com,Finance,Senior Financial Analyst,Move,Finance-Team;Finance-Leads;All-Employees
+Marcus,Reyes,marcus.reyes@rashawntech12outlook.onmicrosoft.com,IT,Helpdesk Technician,Leave,
