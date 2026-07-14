@@ -52,3 +52,16 @@ This uses delegated (interactive) authentication for simplicity in a lab
 environment. A production version would use application permissions with a
 certificate so the pipeline can run unattended — noted here deliberately to
 show the distinction is understood.
+
+## Proof of Concept
+
+Ran against a live Entra ID tenant using a sample HR feed with Join, Move,
+and Leave events.
+
+**Leave event** — account disabled and all group memberships stripped:
+
+![Marcus Reyes account disabled](marcus.png)
+
+**Move event** — group membership updated to reflect new role:
+
+![Alicia Nguyen updated groups](alicia.png)
